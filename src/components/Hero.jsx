@@ -54,7 +54,7 @@ const Hero = () => {
           based in Netherlands.
         </motion.p>
 
-        {/* BUTTON */}
+        
         <motion.a
           href="#about"
           initial={{ opacity: 0, scale: 0.9 }}
@@ -67,14 +67,14 @@ const Hero = () => {
       </div>
 
 
-      {/* IMAGE AREA */}
+      
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
         className="relative w-64 h-64 flex justify-center items-center"
       >
-        {/* DECOR CIRCLE */}
+        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.4 }}
@@ -82,14 +82,14 @@ const Hero = () => {
           className="absolute w-full h-full rounded-full border-2 border-[#03045E]/30"
         ></motion.div>
 
-        {/* PROFILE IMAGE */}
+        
         <img 
           src={img} 
           alt="Fauzan Amali" 
           className="w-full h-full object-cover rounded-full z-10"
         />
 
-        {/* SLASH DECOR */}
+        
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 0.5, y: 0 }}

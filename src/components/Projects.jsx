@@ -1,5 +1,7 @@
 import React from 'react';
-import gambar1 from '../assets/Frame 1.png';
+import img from "../assets/pp.png";
+import { i } from 'framer-motion/client';
+
 
 const titleStyle = "text-5xl md:text-[64px] font-extrabold text-[#e5cc40] tracking-wider mb-8 drop-shadow-lg";
 
@@ -16,7 +18,7 @@ const Projects = ({ images }) => {
             className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-[#e5cc40] shadow-xl"
           >
             <img 
-              src={gambar1} 
+              src={img} 
               alt={`Project ${index + 1}`} 
               className="w-full h-full object-cover"
             />
