@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import img from "../assets/pp.png";
+import img from "../../assets/pp.png";
+
+
 
 const titleStyle = "text-7xl font-bold text-[#03045E] leading-none mb-1";
 

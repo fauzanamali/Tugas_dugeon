@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import CallToAction from './components/CallToAction';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Skills from './components/Skill/Skills';
+import Projects from './components/Projects/Projects';
+import CallToAction from './components/Cta/CallToAction';
+import Footer from './components/Footer/Footer';
 
 // Data Mock untuk Skills dan Projects (ganti dengan path gambar Anda)
 const skillData = [

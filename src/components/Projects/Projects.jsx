@@ -1,7 +1,7 @@
 import React from 'react';
-import img from "../assets/pp.png";
 import { i } from 'framer-motion/client';
-import gambar from "../assets/Frame 1.png";
+import gambar from "../../assets/Frame1.png";
+
 
 
 const titleStyle = "text-5xl md:text-[64px] font-extrabold text-[#e5cc40] tracking-wider mb-8 drop-shadow-lg";
